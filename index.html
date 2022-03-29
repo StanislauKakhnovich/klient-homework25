@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="zero-level">
+    <button id="btn-sign-up" class="start-button">Пройти регистрацию</button>
+    <button id="btn-sign-in" class="start-button">Войти в свой аккаунт и изменить свои данные</button>
+    <form  action="#" novalidate class="form-sign-up hidden">
+        <div class="clearfix">
+            <label for="name">Ваше имя:</label>
+            <div class="registration"><input  id="name" type="text" name="nameUser">
+                <div class="error" id="error1">Поле не может быть пустым.</div>
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="country">Страна:</label>
+            <div class="registration"><input  id="country" type="text" name="country">
+                <div class="error" id="error2">Поле не может быть пустым.</div>
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="town">Город:</label>
+            <div class="registration"><input  id="town" type="text" name="town">
+                <div class="error" id="error3">Поле не может быть пустым.</div>
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="e-mail-up">Ваш e-mail:</label>
+            <div class="registration"><input  id="e-mail-up" type="text" name="mail">
+                <div class="error" id="error4">Поле не может быть пустым.</div>
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="password-up">Введите пароль:</label>
+            <div class="registration"><input  id="password-up" type="text" name="password">
+                <div class="error" id="error5">Поле не может быть пустым.</div>
+            </div>
+        </div>
+        <button id="submit" type="submit">Зарегистрироваться</button>
+    </form>
+    <form  action="#" novalidate class="form-sign-in hidden">
+        <div class="clearfix">
+            <label for="e-mail-in">Ваш e-mail:</label>
+            <div class="registration"><input  id="e-mail-in" type="text" name="mail">
+                <div class="error" id="error6">Поле не может быть пустым.</div>
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="password-in">Введите пароль:</label>
+            <div class="registration"><input  id="password-in" type="text" name="password">
+                <div class="error" id="error7">Поле не может быть пустым.</div>
+            </div>
+        </div>
+        <button id="entry" type="submit">Войти</button>
+        <div class="error" id="error8">Введен неправильный e-mail или пароль</div>
+    </form>
+</div>
+
+<div id="change-form" class=" hidden">
+    <form  action="#" novalidate class="form-sign-change">
+        <div class="clearfix">
+            <label for="name1">Измените ваше имя:</label>
+            <div class="registration"><input  id="name1" type="text" name="nameUser">
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="country1">Измените страну:</label>
+            <div class="registration"><input  id="country1" type="text" name="country">
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="town1">Измените город:</label>
+            <div class="registration"><input  id="town1" type="text" name="town">
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="e-mail-up1">Измените ваш e-mail:</label>
+            <div class="registration"><input  id="e-mail-up1" type="text" name="mail">
+            </div>
+        </div>
+        <div class="clearfix">
+            <label for="password-up1">Измените ваш пароль:</label>
+            <div class="registration"><input  id="password-up1" type="text" name="password">
+            </div>
+        </div>
+        
+        </form>
+        
+</div>
+<button id="submit-change" class="hidden">Отправить изменения</button>
+
+<div id="sucсess1" class="hidden">
+    <p>Ваши данные были успешно изменены.</p>
+</div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
