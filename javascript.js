@@ -106,7 +106,7 @@ const getDataUser = (event) => {
                                 </div>
                             </div>
                             <div class="clearfix">
-                                <label for="password-up1">Измените ваш пароль:</label>
+                                <label for="password-up1">Измените ваш пароль состоящий из цифр:</label>
                                 <div class="registration"><input  id="password-up1" type="text" name="password" value = ${elem.password}>
                                 </div>
                             </div>
